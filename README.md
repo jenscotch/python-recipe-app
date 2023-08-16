@@ -19,3 +19,9 @@ parameter that would be automatically calculated by the app.
  - Automatically rate each recipe by their difficulty level.
  - Display more details on each recipe if the user prompts it, such as the ingredients, cooking time, and difficulty of the recipe.
 
+### Exercise 1.1
+
+### Exercise 1.2
+
+For the inner recipe structure, I chose to use the Dictionary data type because it's useful for data that needs to be labeled, it's a flexible structure, and it accepts multiple data types. Bonus that the rubric for the Exercise requires a Dictionary data type to be used.
+For the outer structure, I chose to use the List data type, because it's easily changed, modified, and appended.
