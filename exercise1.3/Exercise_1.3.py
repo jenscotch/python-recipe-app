@@ -10,9 +10,10 @@ def make_recipe():
     recipe = {
         'name': name,
         'cooking_time': cooking_time,
-        'ingredients': ingredients
+        'ingredients': ingredients.split(', '),
+        'difficulty': difficulty
     }
-    print(recipe)
+    return recipe
 
 for i in range(n):
     recipe = make_recipe()
