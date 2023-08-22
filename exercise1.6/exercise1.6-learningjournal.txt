@@ -1,0 +1,28 @@
+Exercise 1.6: Connecting to Databases in Python
+
+Learning Goals
+
+Create a MySQL database for your Recipe app
+
+Reflection Questions
+
+What are databases and what are the advantages of using them?
+
+		- Databases are an organized collection of stored data. Advantages include the ability to keep data in a standardized format so that you can store and access it more easily, as well as the ability to keep your data secure by password protecting a database.
+
+List 3 data types that can be used in MySQL and describe them briefly:
+
+
+
+
+ In what situations would SQLite be a better choice than MySQL?
+
+		- SQLite is best for very simple databases, or for test databases.
+
+Think back to what you learned in the Immersion course. What do you think about the differences between JavaScript and Python as programming languages?
+
+		- I think that Python is much more geared for / built for / better for server-side operations than JavaScript. The syntax is different too. 
+
+Now that you’re nearly at the end of Achievement 1, consider what you know about Python so far. What would you say are the limitations of Python as a programming language?
+
+		- The limitations of Python, for me, are that it’s difficult to see changes in real time. To see your changes, you have to go through the terminal and run the script. Additionally, it’s not really suited for memory-intensive programs. 
