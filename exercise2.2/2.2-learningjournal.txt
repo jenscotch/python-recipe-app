@@ -1,0 +1,23 @@
+Exercise 2.2: Django Project Set Up
+
+Learning Goals
+
+Describe the basic structure of a Django project 
+Summarize the difference between projects and apps
+Create a Django project and run it locally
+Create a superuser for a Django web application
+
+Reflection Questions
+
+Suppose you’re in an interview. The interviewer gives you their company’s website as an example, asking you to convert the website and its different parts into Django terms. How would you proceed? For this question, you can think about your dream company and look at their website for reference. 
+(Hint: In the Exercise, you saw the example of the CareerFoundry website in the Project and Apps section.)
+
+		- The whole website is regarded as a project. Inside the project, every page is an individual module with a particular function. 
+
+In your own words, describe the steps you would take to deploy a basic Django application locally on your system. 
+
+			- Make a project folder using `django-admin startproject <project name>`. Then work the correct virtual environment. The install Django using `pip install Django`. Then make an inner project folder using `python3 manage.py startup <app name>`. Then migrate the application using `python3 manage.py migrate`. Then make sure that the server is running and working using `python3 manage.py runserver`. 
+
+Do some research about the Django admin site and write down how you’d use it during your web application development.
+
+			- I would use it to add, delete, or edit any database model from a web interface. I can also use it to add attribute columns in the model object list.
