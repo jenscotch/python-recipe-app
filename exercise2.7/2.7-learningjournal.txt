@@ -1,0 +1,21 @@
+Exercise 2.7: Data Analysis and Visualization in Django
+
+Learning Goals
+
+Work on elements of two-way communication like creating forms and buttons
+Implement search and visualization (reports/charts) features
+Use QuerySet API, DataFrames (with pandas), and plotting libraries (with matplotlib)
+
+Reflection Questions
+
+Consider your favorite website/application (you can also take CareerFoundry). Think about the various data that your favorite website/application collects. Write down how analyzing the collected data could help the website/application. 
+
+		- Collects location data, username/password, my data of things that I’ve searched for on other websites. The data collected can help makes user experience on the website better/more enjoyable.
+
+Read the Django official documentation on QuerySet API. Note down the different ways in which you can evaluate a QuerySet.
+
+		- Iteration, slicing, pickling/caching, repr(), len().
+
+In the Exercise, you converted your QuerySet to DataFrame. Now do some research on the advantages and disadvantages of QuerySet and DataFrame, and explain the ways in which DataFrame is better for data processing.
+
+		- DataFrame is better for data processing because it deals with large amounts of data by reducing memory usage and improving efficiency. 
