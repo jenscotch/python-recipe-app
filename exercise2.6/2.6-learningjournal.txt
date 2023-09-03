@@ -1,0 +1,21 @@
+Exercise 2.6: User Authentication in Django
+
+Learning Goals
+
+Create authentication for your web application
+Use GET and POST methods 
+Password protect your web application’s views
+
+Reflection Questions
+
+In your own words, write down the importance of incorporating authentication into an application. You can take an example application to explain your answer. 
+
+		- It’s important because it creates a profile that is unique to the user, while also password-protecting the user’s information.
+
+In your own words, explain the steps you should take to create a login for your Django web application. 
+
+		- Create the login view, create the login template, specify the URL mapping, and register the URL to the project. The login view with import the AuthenticationForm(), as well as generating the POST request method in order for the login view to work as intended. The login template will generate how the form looks. Registering the URL in urlpatterns[] will create a unique url for the login page.
+
+Look up the following three Django functions on Django’s official documentation and/or other trusted sources and write a brief description of each.
+
+
