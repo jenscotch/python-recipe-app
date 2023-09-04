@@ -1,0 +1,39 @@
+Exercise 2.8: Deploying a Django Project
+Learning Goals
+
+Enhance user experience and look and feel of your web application using CSS and JS
+Deploy your Django web application on a web server 
+Curate project deliverables for your portfolio
+
+Reflection Questions
+
+Explain how you can use CSS and JavaScript in your Django web application.
+
+		- By inserting it into an HTML file like you would do normally in HTML. The CSS and JavaScript scripts work the same as they usually would. You can link to an external .js / .css file or insert the code directly into the HTML by using <script/> and <style/>
+
+In your own words, explain the steps you’d need to take to deploy your Django web application. 
+
+		- Push changes to GitHub, make a Procfile with any necessary dynos, install gunicorn, install dj-database-url, add dj-database info to settings.py, install psycopg2, make sure your STATIC paths are correct in settings.py, install white noise, add white noise info to the MIDDLEWARE section of settings.py, set DEBUG to false, replace the secret key, freeze requirements.txt, push to GitHub again, then deploy to Heroku, and run python migrate command.
+
+
+(Optional) Connect with a few Django web developers through LinkedIn or any other network. Ask them for their tips on creating a portfolio to showcase Python programming and Django skills. Think about which tips could help you improve your portfolio.
+
+		n/a
+
+You’ve now finished Achievement 2 and, with it, the whole course! Take a moment to reflect on your learning:
+What went well during this Achievement? 
+
+			- most things			
+
+What’s something you’re proud of? 
+
+			- proud I finally finished it
+
+What was the most challenging aspect of this Achievement? 
+
+			- deploying to Heroku
+Did this Achievement meet your expectations? Did it give you the confidence to start working with your new Django skills?
+
+			- yes and yes
+
+Well done—you’ve now completed the Learning Journal for the whole course. 
